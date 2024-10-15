@@ -37,13 +37,20 @@ a::before {
     padding: 18px 20px;
     box-shadow: 5px 5px 0 #000;
     margin-right: 0;
+    cursor: pointer;
+    transition: transform 200ms linear;
 }
 
 #button::before {
-    background-color: #201DB0;
+    display: inline;    
 }
 
 #button:hover {
     background-color: #0071EF;
+    transform: scale(1.08);
+    opacity: 0.8;
 }
 
+.barra {
+    border: 2px solid #000;
+}
