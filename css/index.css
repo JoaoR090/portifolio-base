@@ -1,13 +1,13 @@
+body {
+    background-color: #201DB0;
+}
+
 header {
     display: flex;
     justify-content: space-between;
     background-color: #201DB0;
     border-bottom: 10px solid #000;
     padding: 10px 20px;
-}
-
-nav {
-    text-align: right;
 }
 
 a {
@@ -51,6 +51,7 @@ a::before {
     opacity: 0.8;
 }
 
-.barra {
-    border: 2px solid #000;
+.skills {
+    width: 50px;
+    height: 50px;
 }
